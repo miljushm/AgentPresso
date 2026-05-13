@@ -12,12 +12,21 @@
       <sparkle:version>1</sparkle:version>
       <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
       <description><![CDATA[
-        <p>Initial public release of AgentPresso — AI WordPress agent for macOS.</p>
+        <p><strong>Initial public release</strong> of AgentPresso — an AI-native WordPress agent for macOS.</p>
+
+        <h3>Key Features</h3>
         <ul>
           <li>Conversational AI agent for autonomous WordPress site management</li>
-          <li>Built-in skills: WP-CLI, admin browser, security, SEO, theme-dev, plugin-mgmt, database</li>
-          <li>Multiple site management with Freemius license activation</li>
-          <li>Settings: skills, models, permissions, licensing</li>
+          <li>Built-in skills: WP-CLI, admin browser, security scanner, SEO optimizer, theme developer, plugin manager, database tools</li>
+          <li>Multi-site management with Freemius license activation</li>
+          <li>Customizable settings: skills toggle, model selection, permissions, licensing, appearance</li>
+          <li>Sparkle auto-updates — always stay on the latest version</li>
+        </ul>
+
+        <h3>System Requirements</h3>
+        <ul>
+          <li>macOS 14.0 (Sonoma) or later</li>
+          <li>Apple Silicon or Intel Mac</li>
         </ul>
       ]]></description>
       <enclosure
