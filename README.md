@@ -64,17 +64,30 @@ All releases: [github.com/miljushm/AgentPresso/releases](https://github.com/milj
 1. [Download the DMG](https://github.com/miljushm/AgentPresso/releases/latest/download/AgentPresso.dmg)
 2. Drag AgentPresso to your Applications folder
 3. Open AgentPresso
-4. Enter your API key (DeepSeek, OpenAI, Anthropic, or any OpenAI-compatible provider)
+4. Go to **Settings → Model** and enter your API key
 5. Add a WordPress site and start chatting
+
+---
+
+## Supported AI Providers
+
+AgentPresso supports a wide range of AI model providers. You can configure them in **Settings → Model**.
+
+| Provider | Notes |
+|---|---|
+| **DeepSeek** | Default — fast and capable for WordPress tasks. Use DeepSeek V4 Flash for speed or V4 Pro for complex reasoning. |
+| **OpenAI** | GPT-4o and newer models. Good fallback if DeepSeek is unavailable. |
+| **Anthropic** | Claude Sonnet 4 and Opus 4. Excellent for longer-context WordPress operations. |
+| **OpenAI-compatible** | Any provider with an OpenAI-compatible API endpoint. Configure via **Custom URL** — works with Ollama, vLLM, LM Studio, Groq, Together, OpenRouter, and more. |
+
+Each provider supports:
+- **Model selection** — pick the specific model variant (Flash, Pro, Sonnet, GPT-4o, etc.)
+- **API key** — saved securely in the system keychain
+- **Custom base URL** — for self-hosted or alternative endpoints
+- **Reasoning effort** — toggle thinking/reasoning on supported models (DeepSeek R1, etc.)
 
 ---
 
 ## Credits
 
-AgentPresso is powered by [Hermes Agent](https://hermes-agent.nousresearch.com/) — an open-source, model-agnostic AI agent framework.
-
----
-
-<p align="center">
-  <sub>Built with ❤️ by Marko Miljuš</sub>
-</p>
+Built with ❤️ by Marko Miljuš
