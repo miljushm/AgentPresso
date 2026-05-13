@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>AgentPresso updates</title>
+    <link>https://github.com/miljushm/AgentPresso</link>
+    <description>Release history for AgentPresso</description>
+    <language>en</language>
+
+    <item>
+      <title>AgentPresso 0.1</title>
+      <pubDate>Tue, 13 May 2026 16:36:00 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
+      <description><![CDATA[
+        <p>Initial public release of AgentPresso — AI WordPress agent for macOS.</p>
+        <ul>
+          <li>Conversational AI agent for autonomous WordPress site management</li>
+          <li>Built-in skills: WP-CLI, admin browser, security, SEO, theme-dev, plugin-mgmt, database</li>
+          <li>Multiple site management with Freemius license activation</li>
+          <li>Settings: skills, models, permissions, licensing</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/miljushm/AgentPresso/releases/download/v0.1/AgentPresso.dmg"
+        sparkle:edSignature="nR3tkGX0LImjvMVNeBcUZ07dfZ4OzE7rZZq/gklS4DErOASReLho6PhDwkNu3Qqp9I5i2dWWQIK4IW0yGuOSBQ=="
+        length="70288871"
+        type="application/octet-stream" />
+    </item>
+
+  </channel>
+</rss>
