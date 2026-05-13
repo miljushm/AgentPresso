@@ -26,10 +26,6 @@
 
 Manage multiple WordPress sites from one app. Switch between them instantly. Each site gets its own chat session with full context.
 
-### Freemius Licensing
-
-License activation and management built-in. Supports both live and sandbox Freemius modes.
-
 ### Sparkle Auto-Updates
 
 Automatic updates delivered via Sparkle — you always get the latest version.
@@ -69,8 +65,7 @@ All releases: [github.com/miljushm/AgentPresso/releases](https://github.com/milj
 2. Drag AgentPresso to your Applications folder
 3. Open AgentPresso
 4. Enter your API key (DeepSeek, OpenAI, Anthropic, or any OpenAI-compatible provider)
-5. Optionally activate a Freemius license for extended use
-6. Add a WordPress site and start chatting
+5. Add a WordPress site and start chatting
 
 ---
 
