@@ -43,7 +43,7 @@ All releases: [github.com/miljushm/AgentPresso/releases](https://github.com/milj
 - **macOS 14.0 (Sonoma)** or later
 - **Apple Silicon** or **Intel Mac**
 - 4 GB RAM minimum (8 GB recommended)
-- Internet connection (AI model access required)
+- Internet connection required for cloud AI models (local models supported via LM Studio or custom endpoint)
 
 ---
 
