@@ -102,4 +102,4 @@ Each provider remembers its own:
 
 ## Credits
 
-AgentPresso is powered by [Hermes Agent](https://hermes-agent.nousresearch.com/) — an open-source, model-agnostic AI agent framework.
+Built on top of Hermes Agent by Nous Research
