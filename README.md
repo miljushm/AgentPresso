@@ -71,23 +71,39 @@ All releases: [github.com/miljushm/AgentPresso/releases](https://github.com/milj
 
 ## Supported AI Providers
 
-AgentPresso supports a wide range of AI model providers. You can configure them in **Settings → Model**.
+AgentPresso supports the following AI model providers, configurable in **Settings → Model**.
 
-| Provider | Notes |
+### Cloud Providers
+
+| Provider | Models |
 |---|---|
-| **DeepSeek** | Default — fast and capable for WordPress tasks. Use DeepSeek V4 Flash for speed or V4 Pro for complex reasoning. |
-| **OpenAI** | GPT-4o and newer models. Good fallback if DeepSeek is unavailable. |
-| **Anthropic** | Claude Sonnet 4 and Opus 4. Excellent for longer-context WordPress operations. |
-| **OpenAI-compatible** | Any provider with an OpenAI-compatible API endpoint. Configure via **Custom URL** — works with Ollama, vLLM, LM Studio, Groq, Together, OpenRouter, and more. |
+| **DeepSeek** | deepseek-v4-pro, deepseek-v4-flash, deepseek-chat, deepseek-reasoner |
+| **OpenAI** | gpt-5.4, gpt-5.4-mini, gpt-5-mini, gpt-5.3-codex, gpt-4.1, gpt-4o, gpt-4o-mini |
+| **Anthropic** | claude-opus-4-7, claude-opus-4-6, claude-sonnet-4-6, claude-haiku-4-5-20251001 |
+| **Google AI Studio** | gemini-3.1-pro-preview, gemini-3-pro-preview, gemini-3-flash-preview, gemini-3.1-flash-lite-preview |
+| **xAI** | grok-4, grok-4-fast, grok-3, grok-3-fast, grok-3-mini, grok-3-mini-fast, grok-code-fast-1 |
+| **OpenRouter** | auto, openai/gpt-5.4, anthropic/claude-sonnet-4-6, google/gemini-3-pro-preview (any OpenRouter model by ID) |
+| **Z.AI / GLM** | glm-5.1, glm-5-turbo, glm-5, glm-4.7, glm-4.7-flash, glm-4.7-flashx, glm-4.6, glm-4.5, glm-4.5-air, glm-4.5-x, glm-4.5-airx, glm-4.5-flash, glm-4-32b-0414-128k |
+| **MiniMax** | MiniMax-M2.7, MiniMax-M2.7-highspeed, MiniMax-M2.5, MiniMax-M2.5-highspeed, M2-her |
 
-Each provider supports:
-- **Model selection** — pick the specific model variant (Flash, Pro, Sonnet, GPT-4o, etc.)
+### Local / Self-Hosted
+
+| Provider | Configuration |
+|---|---|
+| **LM Studio** | Local inference server. Default URL: `http://localhost:1234/v1`. API key optional. |
+| **Custom (OpenAI-compatible)** | Any provider with an OpenAI-compatible endpoint — works with Ollama, vLLM, Groq, Together AI, Fireworks, Mistral, Perplexity, Cohere, HuggingFace, NVIDIA, AWS Bedrock, Azure AI Foundry, and more. Enter a custom base URL and model name. |
+
+### Per-Provider Settings
+
+Each provider remembers its own:
 - **API key** — saved securely in the system keychain
+- **Model selection** — pick the specific model variant
 - **Custom base URL** — for self-hosted or alternative endpoints
-- **Reasoning effort** — toggle thinking/reasoning on supported models (DeepSeek R1, etc.)
+- **Reasoning effort** — toggle thinking/reasoning (Low, Medium, High, Max)
+- **API mode** — Auto, Chat Completions, Responses API, or Anthropic Messages (for multi-mode endpoints)
 
 ---
 
 ## Credits
 
-Built with ❤️ by Marko Miljuš
+AgentPresso is powered by [Hermes Agent](https://hermes-agent.nousresearch.com/) — an open-source, model-agnostic AI agent framework.
