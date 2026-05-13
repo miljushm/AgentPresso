@@ -2,8 +2,6 @@
 
 **AI-native WordPress agent for macOS.** Chat with an autonomous agent that manages your WordPress sites — deploys plugins, fixes security holes, optimizes SEO, writes content, and runs WP-CLI commands. All from a single native macOS app.
 
-> ⚡ Built on [Hermes Agent](https://hermes-agent.nousresearch.com/) — open-source CLI AI agent framework.
-
 ---
 
 ## Features
