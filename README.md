@@ -75,23 +75,19 @@ AgentPresso supports the following AI model providers, configurable in **Setting
 
 ### Cloud Providers
 
-| Provider | Models |
-|---|---|
-| **DeepSeek** | deepseek-v4-pro, deepseek-v4-flash, deepseek-chat, deepseek-reasoner |
-| **OpenAI** | gpt-5.4, gpt-5.4-mini, gpt-5-mini, gpt-5.3-codex, gpt-4.1, gpt-4o, gpt-4o-mini |
-| **Anthropic** | claude-opus-4-7, claude-opus-4-6, claude-sonnet-4-6, claude-haiku-4-5-20251001 |
-| **Google AI Studio** | gemini-3.1-pro-preview, gemini-3-pro-preview, gemini-3-flash-preview, gemini-3.1-flash-lite-preview |
-| **xAI** | grok-4, grok-4-fast, grok-3, grok-3-fast, grok-3-mini, grok-3-mini-fast, grok-code-fast-1 |
-| **OpenRouter** | auto, openai/gpt-5.4, anthropic/claude-sonnet-4-6, google/gemini-3-pro-preview (any OpenRouter model by ID) |
-| **Z.AI / GLM** | glm-5.1, glm-5-turbo, glm-5, glm-4.7, glm-4.7-flash, glm-4.7-flashx, glm-4.6, glm-4.5, glm-4.5-air, glm-4.5-x, glm-4.5-airx, glm-4.5-flash, glm-4-32b-0414-128k |
-| **MiniMax** | MiniMax-M2.7, MiniMax-M2.7-highspeed, MiniMax-M2.5, MiniMax-M2.5-highspeed, M2-her |
+- DeepSeek
+- OpenAI
+- Anthropic
+- Google AI Studio
+- xAI
+- OpenRouter
+- Z.AI / GLM
+- MiniMax
 
 ### Local / Self-Hosted
 
-| Provider | Configuration |
-|---|---|
-| **LM Studio** | Local inference server. Default URL: `http://localhost:1234/v1`. API key optional. |
-| **Custom (OpenAI-compatible)** | Any provider with an OpenAI-compatible endpoint — works with Ollama, vLLM, Groq, Together AI, Fireworks, Mistral, Perplexity, Cohere, HuggingFace, NVIDIA, AWS Bedrock, Azure AI Foundry, and more. Enter a custom base URL and model name. |
+- LM Studio
+- Custom (OpenAI-compatible)
 
 ### Per-Provider Settings
 
