@@ -1,6 +1,6 @@
 # AgentPresso
 
-**AI-native WordPress agent for macOS.** Chat with an autonomous agent that manages your WordPress sites — deploys plugins, fixes security holes, optimizes SEO, writes content, and runs WP-CLI commands. All from a single native macOS app.
+**AI-native operations agent for macOS.** One autonomous agent that handles your full server and WordPress stack — deploys plugins, hardens security, manages system configs, runs WP-CLI and SSH commands, audits servers, optimizes SEO, and writes content. From system administration to site management, all from a single native app.
 
 ---
 
