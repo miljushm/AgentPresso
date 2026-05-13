@@ -17,7 +17,7 @@
         <h3>Key Features</h3>
         <ul>
           <li>Conversational AI agent for autonomous WordPress site management</li>
-          <li>Built-in skills: WP-CLI, admin browser, security scanner, SEO optimizer, theme developer, plugin manager, database tools</li>
+          <li>Built-in skills: WP-CLI, admin browser, security, SEO, theme development, plugin management, database, content creation, Gutenberg blocks, REST API, WooCommerce</li>
           <li>Multi-site management with Freemius license activation</li>
           <li>Customizable settings: skills toggle, model selection, permissions, licensing, appearance</li>
           <li>Sparkle auto-updates — always stay on the latest version</li>
