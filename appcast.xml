@@ -7,6 +7,23 @@
     <language>en</language>
 
     <item>
+      <title>AgentPresso 0.2</title>
+      <pubDate>Thu, 14 May 2026 13:39:50 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+      <description><![CDATA[
+        <p>AgentPresso 0.2</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/miljushm/AgentPresso/releases/download/v0.2/AgentPresso.dmg"
+        sparkle:edSignature="FskSn3ZlrEFEG2VMsg8m6olyB+s51UFkjgEeHaajSHaNtGKBzy/tvmSruKrnrjLjdoqvX8PY3kCJ7FbP4O2nCw=="
+        length="68375057"
+        type="application/octet-stream" />
+    </item>
+
+
+
+    <item>
       <title>AgentPresso 0.1</title>
       <pubDate>Tue, 13 May 2026 16:36:00 +0000</pubDate>
       <sparkle:version>1</sparkle:version>
