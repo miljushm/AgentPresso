@@ -10,7 +10,7 @@
 
 ## Features
 
-### Autonomous Skills (11 built-in)
+### Autonomous Skills (21 built-in)
 
 | Skill | What it does |
 |---|---|
@@ -25,6 +25,7 @@
 | **Gutenberg Blocks** | Build custom Gutenberg blocks — attributes, inspectors, dynamic rendering, ACF blocks |
 | **REST API** | Interact with the WordPress REST API — CRUD posts, users, media, custom endpoints |
 | **WooCommerce** | Manage products, orders, coupons, customers, and WooCommerce settings |
+| **→ [See all 21 skills on agentpresso.com](https://agentpresso.com/skills/)** |
 
 ### Multi-Site Management
 
