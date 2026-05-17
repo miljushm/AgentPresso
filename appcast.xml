@@ -9,10 +9,19 @@
     <item>
       <title>AgentPresso 0.3</title>
       <pubDate>Sun, 17 May 2026 20:03:33 +0000</pubDate>
-      <sparkle:version>2</sparkle:version>
+      <sparkle:version>7</sparkle:version>
       <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
       <description><![CDATA[
-        <p>AgentPresso 0.3</p>
+        <p><strong>Doubled skills, native notifications, and more ways to connect.</strong></p>
+
+        <h3>What's New</h3>
+        <ul>
+          <li><strong>21 built-in skills</strong> (up from 11) — added 10 new design &amp; developer-focused skills: accessibility-design, block-patterns-library, content-creation, design-fundamentals, gutenberg-blocks, inspiration-and-references, motion-and-interaction, performance-design, rest-api, style-variations, theme-design-review, theme-design-system, woocommerce-theming</li>
+          <li><strong>macOS notifications</strong> — AgentPresso now shows a native notification when a task completes, even when the app isn't in focus. Clean one-liner with agent preview</li>
+          <li><strong>OpenAI Codex OAuth provider</strong> — log in with your existing ChatGPT account for code-first tasks. No separate API key needed</li>
+          <li><strong>Typing indicator</strong> — three-dot animation in the sidebar when the agent is processing</li>
+          <li><strong>Improved skill editor</strong> with Markdown template for faster custom skill authoring</li>
+        </ul>
       ]]></description>
       <enclosure
         url="https://github.com/miljushm/AgentPresso/releases/download/v0.3/AgentPresso.dmg"

@@ -79,6 +79,7 @@ AgentPresso supports the following AI model providers, configurable in **Setting
 
 ### Cloud Providers
 
+- ChatGPT / Codex
 - DeepSeek
 - OpenAI
 - Anthropic
