@@ -7,6 +7,46 @@
     <language>en</language>
 
     <item>
+      <title>AgentPresso 0.4</title>
+      <pubDate>Sun, 05 Jul 2026 15:30:00 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
+      <description><![CDATA[
+        <p><strong>Chat improvements, smarter memory &amp; context, refreshed design, and reliability fixes.</strong></p>
+
+        <h3>Chat</h3>
+        <ul>
+          <li><strong>Message queueing</strong> — type and send while the agent is still working; messages wait in a visible queue (removable chips above the composer) and are sent automatically, one by one, when the current reply finishes.</li>
+          <li><strong>Graceful Stop</strong> — stopping a response no longer restarts the engine. The partial reply is kept in the chat, full conversation context is preserved, and other sites' running tasks are unaffected. Esc also stops.</li>
+          <li><strong>Retry &amp; Edit</strong> — hover any message for Copy; the last reply gets a Retry button, your last message gets Edit (pulls the text back into the composer).</li>
+        </ul>
+
+        <h3>Memory &amp; context</h3>
+        <ul>
+          <li><strong>Chats survive restarts</strong> — transcripts are now saved to disk per site.</li>
+          <li><strong>Long-term site memory</strong> — the agent remembers durable facts (site quirks, preferences, past decisions) across sessions and new chats; stored as human-editable markdown per site.</li>
+          <li><strong>Smarter long conversations</strong> — replayed history is capped, so the model no longer degrades in very long chats.</li>
+        </ul>
+
+        <h3>Design</h3>
+        <ul>
+          <li>Refreshed, warmer look: new color palette, serif greeting with time of day, redesigned composer with separate Stop/Send controls, subtler message bubbles, and an animated thinking indicator.</li>
+        </ul>
+
+        <h3>Reliability</h3>
+        <ul>
+          <li>Interrupts are turn-scoped and race-safe (stopping one site can no longer affect another site's in-flight task).</li>
+          <li>Partial output is preserved when a provider error occurs mid-reply.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/miljushm/AgentPresso/releases/download/v0.4/AgentPresso.dmg"
+        sparkle:edSignature="vuP1D4EWt//RJS+zigOq5bpPlswO6vkpnRwdzrLqiviYdqgMHsJ01peW9wPHWuG85loIM2xuc0eZ9mJsBTEQAQ=="
+        length="176029914"
+        type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>AgentPresso 0.3.1</title>
       <pubDate>Mon, 18 May 2026 13:20:07 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
@@ -20,8 +60,6 @@
         length="69023575"
         type="application/octet-stream" />
     </item>
-
-
 
     <item>
       <title>AgentPresso 0.3</title>
@@ -47,8 +85,6 @@
         type="application/octet-stream" />
     </item>
 
-
-
     <item>
       <title>AgentPresso 0.2</title>
       <pubDate>Fri, 15 May 2026 10:47:49 +0000</pubDate>
@@ -63,8 +99,6 @@
         length="68379254"
         type="application/octet-stream" />
     </item>
-
-
 
     <item>
       <title>AgentPresso 0.2</title>
@@ -81,8 +115,6 @@
         type="application/octet-stream" />
     </item>
 
-
-
     <item>
       <title>AgentPresso 0.2</title>
       <pubDate>Thu, 14 May 2026 14:36:07 +0000</pubDate>
@@ -98,8 +130,6 @@
         type="application/octet-stream" />
     </item>
 
-
-
     <item>
       <title>AgentPresso 0.2</title>
       <pubDate>Thu, 14 May 2026 14:19:22 +0000</pubDate>
@@ -114,25 +144,6 @@
         length="68371213"
         type="application/octet-stream" />
     </item>
-
-
-
-    <item>
-      <title>AgentPresso 0.2</title>
-      <pubDate>Thu, 14 May 2026 13:39:50 +0000</pubDate>
-      <sparkle:version>2</sparkle:version>
-      <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-      <description><![CDATA[
-        <p>AgentPresso 0.2</p>
-      ]]></description>
-      <enclosure
-        url="https://github.com/miljushm/AgentPresso/releases/download/v0.2/AgentPresso.dmg"
-        sparkle:edSignature="FskSn3ZlrEFEG2VMsg8m6olyB+s51UFkjgEeHaajSHaNtGKBzy/tvmSruKrnrjLjdoqvX8PY3kCJ7FbP4O2nCw=="
-        length="68375057"
-        type="application/octet-stream" />
-    </item>
-
-
 
     <item>
       <title>AgentPresso 0.1</title>
